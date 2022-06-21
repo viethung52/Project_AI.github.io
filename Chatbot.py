@@ -1,4 +1,5 @@
 import json 
+import pickle
 import numpy as np 
 import tensorflow as tf
 from tensorflow import keras
@@ -56,7 +57,6 @@ model.add(GlobalAveragePooling1D())
 model.add(Dense(16, activation='relu'))
 model.add(Dense(16, activation='relu'))
 model.add(Dense(num_classes, activation='softmax'))   
-
 model.summary()
 
 
@@ -68,15 +68,11 @@ history = model.fit(padded_sequences, np.array(training_labels), epochs=500)
 
 
 
-# to save the trained model
+
 model.save("chat_model")
 
-import pickle
-
-# to save the fitted tokenizer
 with open('tokenizer.pickle', 'wb') as handle:
     pickle.dump(tokenizer, handle, protocol=pickle.HIGHEST_PROTOCOL)
     
-# to save the fitted label encoder
 with open('label_encoder.pickle', 'wb') as ecn_file:
     pickle.dump(lbl_encoder, ecn_file, protocol=pickle.HIGHEST_PROTOCOL)
