@@ -1,0 +1,317 @@
+{"intents":[
+    {
+      "tag": "1",
+      "patterns": ["Hello", "Hi"],
+      "responses": ["Hi", "Hello"],
+      "context_set": ""
+    },
+    {
+        "tag": "2",
+        "patterns": ["Good morning"],
+        "responses": ["Good morning"],
+        "context_set": ""
+    },
+    {
+        "tag": "3",
+        "patterns": ["Good afternoon"],
+        "responses": ["Good afternoon"],
+        "context_set": ""
+    },
+    {
+        "tag": "4",
+        "patterns": ["Good evening"],
+        "responses": ["Good evening"],
+        "context_set": ""
+    },
+    {
+        "tag": "5",
+        "patterns": ["Nice to meet you"],
+        "responses": ["Hi", "Hello","Hi, nice to meet you too"],
+        "context_set": ""
+    },
+    {
+        "tag": "6",
+        "patterns": ["Hey"],
+        "responses": ["Hi", "Hello","Hey sir"],
+        "context_set": ""
+    },
+    {
+        "tag": "7",
+        "patterns": ["It's a pleasure to meet you"],
+        "responses": ["Hi", "Hello", "me too", "Hey sir", "nice to meet you,too"],
+        "context_set": ""
+    },
+    {
+        "tag": "8",
+        "patterns": ["Hello, Is anyone here?"],
+        "responses": ["Hi, I'm here"],
+        "context_set": ""
+    },
+    { 
+      "tag": "9",
+      "patterns": ["What's your name", "How should i call you?", "What is your name"],
+      "responses": ["I'm robot", "you can call me robot", "My name is robot"],
+      "context_set": ""
+    },
+    {
+        "tag": "10",
+        "patterns": ["How old are you", "What is your age?","How old?"],
+        "responses": ["I'm two years old", "Two years old"],
+        "context_set": ""
+    },
+    {
+        "tag": "11",
+        "patterns": ["What time do I need to take the medicine?"],
+        "responses": ["You need to take your medicine at 8 a.m"],
+        "context_set": ""
+    },
+    {
+        "tag": "12",
+        "patterns": ["What time do I need to go to bed?"],
+        "responses": ["You need to go to bed at 9pm","You will go to bed at 9pm"],
+        "context_set": ""
+    },
+    {
+        "tag": "13",
+        "patterns": ["What time do we have lunch?","When to have lunch?"],
+        "responses": ["We have lunch at 12 o'clock"],
+        "context_set": ""
+    },
+    {
+        "tag": "13",
+        "patterns": ["What time do we have breakfast","when will we have breakfast"],
+        "responses": ["We have breakfast at 7 o'clock"],
+        "context_set": ""
+    },
+    {
+        "tag": "14",
+        "patterns": ["What time do we have dinner?"],
+        "responses": ["We have dinner at 7pm "],
+        "context_set": ""
+    },
+    {
+        "tag": "15",
+        "patterns": ["what time is the movie?"],
+        "responses": ["The movie will be shown at 8pm"],
+        "context_set": ""
+    },
+    {
+        "tag": "16",
+        "patterns": ["Would you like to watch a movie with me?"],
+        "responses": ["I am very pleased"],
+        "context_set": ""
+    },
+    {
+        "tag": "17",
+        "patterns": ["Where are my glasses?"],
+        "responses": ["It's inside my left side"],
+        "context_set": ""
+    },
+    {
+        "tag": "18",
+        "patterns": ["Where is my medicine?"],
+        "responses": ["It's inside my right"],
+        "context_set": ""
+    },
+    {
+        "tag": "19",
+        "patterns": ["Where is my newspaper?"],
+        "responses": ["It's on the dining table"],
+        "context_set": ""
+    },
+    {
+        "tag": "19",
+        "patterns": ["Where is the TV remote?"],
+        "responses": ["it's on the table in the living room","It's somewhere on the table"],
+        "context_set": ""
+    },
+    {
+        "tag": "20",
+        "patterns": ["Have you seen my phone?"],
+        "responses": ["Your phone is on the dining table","It's somewhere on the table"],
+        "context_set": ""
+    },
+    {
+        "tag": "time",
+        "patterns": ["What time is it"],
+        "responses": ["It's"],
+        "context_set": ""
+    },
+    {
+        "tag": "22",
+        "patterns": ["Do you see everyone in the house?"],
+        "responses": ["They are in the kitchen"],
+        "context_set": ""
+    },
+    {
+        "tag": "23",
+        "patterns": ["Hey robot, I'm a bit tired today."],
+        "responses": ["I think you need to rest a bit"],
+        "context_set": ""
+    },
+    {
+        "tag": "24",
+        "patterns": ["hey robot, what do we eat today?","What do we have today?"],
+        "responses": ["I don't know, maybe we'll have braised meat","I guess we'll eat fish today"],
+        "context_set": ""
+    },
+    {
+        "tag": "25",
+        "patterns": ["Can I ask you a few things?"],
+        "responses": ["Okay, I'm happy about that","Im very pleasant"],
+        "context_set": ""
+    },
+    {
+        "tag": "26",
+        "patterns": ["How are you?"],
+        "responses": ["Im great today, Im so happy.","I'm fine about you?"],
+        "context_set": ""
+    },
+    {
+        "tag": "27",
+        "patterns": ["I'm happy today","I'm fine"],
+        "responses": ["yes, today is a great day"],
+        "context_set": ""
+    },
+    {
+        "tag": "28",
+        "patterns": ["I feel boring."],
+        "responses": ["Wazzup? May I help you"],
+        "context_set": ""
+    },
+    {
+        "tag": "29",
+        "patterns": ["Can you tell me a story?"],
+        "responses": ["Got it right now"],
+        "context_set": ""
+    },
+    {
+        "tag": "30",
+        "patterns": ["Can you get me a glass of water?"],
+        "responses": ["I'll go get it right away"],
+        "context_set": ""
+    },
+    {
+        "tag": "31",
+        "patterns": ["Thank you robot","Thanks"],
+        "responses": ["you're welcome","it's a small thing"],
+        "context_set": ""
+    },
+    {
+        "tag": "32",
+        "patterns": ["sorry"],
+        "responses": ["No problem."],
+        "context_set": ""
+    },
+    {
+        "tag": "33",
+        "patterns": ["I feel tired inside. what should I do?"],
+        "responses": ["I think you should call John to get you checked out. You need to rest"],
+        "context_set": ""
+    },
+    {
+        "tag": "34",
+        "patterns": ["I have a stomach ache.i need some stomach medicine "],
+        "responses": ["Stomach medicine is in my right drawer here. Remember to drink after eating"],
+        "context_set": ""
+    },
+    {
+        "tag": "35",
+        "patterns": ["What foods should I eat?"],
+        "responses": ["You should eat lots of vegetables and fruits."],
+        "context_set": ""
+    },
+    {
+        "tag": "36",
+        "patterns": ["What foods should I avoid?"],
+        "responses": ["You should avoid foods that are too greasy, animal fat, spicy and sweet dishes"],
+        "context_set": ""
+    },
+    {
+        "tag": "37",
+        "patterns": ["Which drinks are good for me?"],
+        "responses": ["it includes filtered water, juice, cereal milk or fresh milk, I think you should also take some extra vitamins to ensure a healthy body."],
+        "context_set": ""
+    },
+    {
+        "tag": "38",
+        "patterns": ["What drinks should I avoid?"],
+        "responses": ["You should not drink alcohol, stimulants and even carbonated drinks."],
+        "context_set": ""
+    },
+    {
+        "tag": "39",
+        "patterns": ["I want to exercise. Can you show me the exercises that are right for me"],
+        "responses": ["You should do these simple exercises."],
+        "context_set": ""
+    },
+    {
+        "tag": "40",
+        "patterns": ["Can you tell me my monthly health check schedule?"],
+        "responses": ["Your monthly health check on the 8th"],
+        "context_set": ""
+    },
+    {
+        "tag": "41",
+        "patterns": ["I want to listen to relaxing music?","Can you play me some music?"],
+        "responses": ["What kind of music do you want to listen to?"],
+        "context_set": ""
+    },
+    {
+        "tag": "42",
+        "patterns": ["I want to listen to lyrical music"],
+        "responses": ["Let's listen to some music","I think you will like these songs"],
+        "context_set": ""
+    },
+    {
+        "tag": "43",
+        "patterns": ["Wow, That's great."],
+        "responses": ["that's right","I see it too"],
+        "context_set": ""
+    },
+    {
+        "tag": "44",
+        "patterns": ["I'm not feeling well, please check my blood pressure"],
+        "responses": ["Please put your index finger on the screen so I can check your health"],
+        "context_set": ""
+    },
+    {
+        "tag": "45",
+        "patterns": ["I want to phone Ruler, do you know his number?"],
+        "responses": ["546516516"],
+        "context_set": ""
+    },
+    {
+        "tag": "46",
+        "patterns": ["Do you know the fire department number?"],
+        "responses": ["I think you need to rest a bit"],
+        "context_set": ""
+    },
+    {
+        "tag": "47",
+        "patterns": ["Please give me the phone number of the ambulance"],
+        "responses": ["It's 114"],
+        "context_set": ""
+    },
+    {
+        "tag": "48",
+        "patterns": ["Do you know where my stick is?"],
+        "responses": ["Your stick is in your bedroom","It's next to your bed"],
+        "context_set": ""
+    },
+    {
+        "tag": "49",
+        "patterns": ["My back hurts, do you see the bottle of massage oil for me?"],
+        "responses": ["It's on the table in the bedroom"],
+        "context_set": ""
+    },
+    {
+        "tag": "50",
+        "patterns": ["Do you see stomach medicine in pain?"],
+        "responses": ["The medicine is in the medicine cabinet on the wall"],
+        "context_set": ""
+    }
+    
+]
+
+}
